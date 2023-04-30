@@ -1,0 +1,11 @@
+<?php
+for($i=0;$i<5;$i++){
+    if($i==0||$i==4){
+        echo"*****";
+        echo"<br>";
+    }else{
+        echo"*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*";
+        echo"<br>";
+    }
+}
+?>
